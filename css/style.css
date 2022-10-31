@@ -1,0 +1,136 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Grid CSS */
+
+/* Category Grid CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation CSS */
+
+/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  font-weight: 800;
+  font-size: 50px;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+/* Typography CSS */
+
+section {
+  display: grid;
+  height: 1000px;
+  margin: 50px;
+  grid-template-areas: 
+    'sec-1 sec-1 sec-2'
+    'sec-1 sec-1 sec-2'
+    'sec-1 sec-1 sec-3';
+}
+
+.heroGridArea1 {
+  grid-area: sec-1;
+  background-image: url(../images/furniture1.jpg);
+  background-size: cover;
+}
+
+.heroGridArea2 {
+  width: 100%;
+  background-image: url(../images/furniture2\ 3.png);
+  background-repeat: no-repeat;
+  grid-area: sec-2;
+  background-size: cover;
+  
+}
+
+.heroGridArea3 {
+  background-image: url(../images/woodbg\ 2.png);
+  background-repeat: no-repeat;
+  grid-area: sec-3;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #FF6200;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+#CTA {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#featuredProduct {
+  border: #FF6200; 
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 350px 45%;
+  width: 50%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: #FF6200;
+}
+
+#headline p {
+  max-width: 350px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #636364;
+}
